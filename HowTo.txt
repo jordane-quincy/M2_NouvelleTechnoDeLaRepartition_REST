@@ -1,0 +1,23 @@
+
+
+Pour tester :
+http://127.0.0.1:8080/M2_NouvelleTechnoDeLaRepartition_REST/ApplicationREST/test/test
+	--> retourne :
+test OK
+
+	et
+
+http://127.0.0.1:8080/M2_NouvelleTechnoDeLaRepartition_REST/ApplicationREST/test/getDefaultPersonne
+	--> retourne :
+{"id":0,"nom":"Quincy","prenom":"Jordane","age":26}
+
+
+localhost : port /
+puis
+nom du projet (ici M2_NouvelleTechnoDeLaRepartition_REST)
+puis
+la valeur de l'annotation @ApplicationPath (ici : /ApplicationREST )
+puis
+la valeur de l'annotation @Path de la classe (ici : /test )
+puis
+la valeur de l'annotation @Path de la méthode (ici : /getDefaultPersonne )
